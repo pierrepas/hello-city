@@ -3,5 +3,8 @@
 {% block title 'About Us | ' ~ parent() %}
 
 {% block body %}
+    <img src="{{ asset('/images/symfony_black.png') }}" alt="Fait avec Symfony" width=200>
+    <h1>Built by Pierre Pasquier from Les teachers du net.</h1>
 
+    <p><a href="{{ path('app_home') }}">Revenir à la page d'accueil</a></p>
 {% endblock %}
